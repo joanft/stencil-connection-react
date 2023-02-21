@@ -4,8 +4,10 @@ Also, you will find an example for Next.JS that is **not** working due to Next l
 # Installation
 First, install all dependencies
 `pnpm install`
+
 Build Stencil package
 `pnpm -F components build`
+
 Start React dev server:
 `pnpm -F app dev`
 
@@ -15,6 +17,8 @@ Start React dev server:
 
 # Detailed explanations
 To get detailed explanations of what is going on on each folder, read the readme file inside.
+
+**Start with `component` folder**
 
 # Next.JS hydrate error
 You will see an hydrate error on the Next.JS project because Stencil needs to be loaded and triggered before React renders its things. Unfortunately this is impossible, so an integration of Stencil + Next.JS is not recommended.
