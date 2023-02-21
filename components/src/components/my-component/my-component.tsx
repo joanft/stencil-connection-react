@@ -5,15 +5,6 @@ import { Component, Prop, h, State } from '@stencil/core';
   styleUrl: 'my-component.css',
 })
 export class MyComponent {
-  /**
-   * The first name
-   */
-  @Prop() first: string;
-
-  /**
-   * The last name
-   */
-  @Prop() last: string;
 
   @State() test: number = 1
 
@@ -23,7 +14,7 @@ export class MyComponent {
 
   render() {
     return <div>
-      Hello, Adrian! { this.test }
+      <p>Hello, World! - { this.test }</p>
       <button onClick={this.addNumber}>Add</button>
       </div>;
   }
