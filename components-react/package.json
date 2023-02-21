@@ -1,0 +1,8 @@
+{
+    "name": "components-react",
+    "version": "0.0.1",
+    "main": "src/components/stencil-generated/index.ts",
+    "dependencies": {
+        "components": "workspace:^0.0.2"
+    }
+}
